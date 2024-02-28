@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 4px solid ;
+            width: 1200px;
+            height: 700px;
+            background-color: #7B89AE;
+        }
+        .left:checked~.whis{
+            transform: rotate(120deg);
+        }
+        .l1:checked~.whis{
+            transform: none;
+        }
+        .l2:checked~.whis{
+            transform: rotate(10deg);
+        }
+        .l3:checked~.whis{
+            transform: rotate(50deg);
+        }
+        .l4:checked~.whis{
+            transform: rotate(90deg);
+        }
+        .l5:checked~.whis{
+            transform: rotate(120deg);
+        }
+        .l6:checked~.whis{
+            transform: rotate(150deg);
+        }
+        .l7:checked~.whis{
+            transform: skew(20deg,20deg);
+        }
+        .l8:checked~.whis{
+            transform: skewX(40deg);
+        }
+        .l9:checked~.whis{
+            transform: skewY(40deg);
+        }
+        .l10:checked~.whis{
+            transform: Translate(30px,30px);
+        }
+        .l11:checked~.whis{
+            transform: translate(60deg,90deg);
+        }
+        .l12:checked~.whis{
+            transform: scale(2,3);
+        }
+        .l13:checked~.whis{
+            transform: scaleX(3);
+        }
+        .l14:checked~.whis{
+            transform: scaleY(2);
+        }
+        .whis{
+            position: absolute;
+            left: 60%;
+            bottom: 60%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <input type="radio" name="action" class="left">Transform(180 deg)<br><br>
+            <input type="radio" name="action" class="l1">Transform: None <br><br>
+            <input type="radio" name="action" class="l2">Transform: rotate(10deg) <br><br>
+            <input type="radio" name="action" class="l3">Transform: rotate(50deg) <br><br>
+            <input type="radio" name="action" class="l4">Transform: rotate(90deg) <br><br>
+            <input type="radio" name="action" class="l5">Transform: rotate(120deg) <br><br>
+            <input type="radio" name="action" class="l6">Transform: rotate(150deg) <br><br>
+            <input type="radio" name="action" class="l7">Transform: Skew(20deg,20deg) <br><br>
+            <input type="radio" name="action" class="l8">Transform: SkewX(40deg) <br><br>
+            <input type="radio" name="action" class="l9">Transform: SkewY(40deg) <br><br>
+            <input type="radio" name="action" class="l10">Transform: Translate(30px,30px) <br><br>
+            <input type="radio" name="action" class="l11">Transform: Translate(60px,90px) <br><br>
+            <input type="radio" name="action" class="l12">Transform: Scale(2,3) <br><br>
+            <input type="radio" name="action" class="l13">Transform: ScaleX(3) <br><br>
+            <input type="radio" name="action" class="l14">Transform: ScaleY(2) <br><br>
+            <img src="../assets/baby whiss.jpg" height="200px" width="200px" class="whis">
+        </div>
+    </div>
+</body>
+</html>
